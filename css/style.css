@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -28,6 +30,8 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
+
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
@@ -844,7 +848,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: 'Quicksand', sans-serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -857,7 +861,9 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 225px;
+    line-height: 4.5;
   }
 }
 #fh5co-header .display-tc h2,
@@ -872,6 +878,7 @@ form label {
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
     font-size: 16px;
+    margin-bottom: ;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -940,9 +947,9 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 90px;
-  height: 90px;
-  background: rgba(101, 240, 83, 0.74);
+  width: 70px;
+  height: 70px;
+  background: rgba(1, 5, 0, 0.5);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -950,7 +957,7 @@ form label {
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
-  margin-bottom: -200px;
+  margin-bottom: -70px;
 }
 
 @keyframes pulse {
@@ -968,8 +975,9 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
+  height: 80px;
   width: 100px;
+  line-height: 20px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -979,6 +987,10 @@ form label {
   /* amounts and words */
 }
 
+.pimpolho {
+  margin-top: 80px;
+} 
+
 .simply-countdown > .simply-section .simply-amount {
   font-size: 30px;
   /* amounts */
@@ -987,7 +999,7 @@ form label {
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   /* words */
 }
 
