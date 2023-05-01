@@ -872,6 +872,8 @@ form label {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h2,
@@ -1108,6 +1110,7 @@ form label {
     width: 120px;
     height: 120px;
     margin: 0 auto;
+    margin-top: -20px;
   }
 }
 .couple-half .groom {
@@ -1119,8 +1122,9 @@ form label {
   margin-left: 5px;
 }
 .couple-half .desc-groom {
-  padding-right: 180px;
+  padding-right: 80px;
   text-align: right;
+  
 }
 .couple-half .desc-bride {
   padding-left: 180px;
