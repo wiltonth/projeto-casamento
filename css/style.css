@@ -932,7 +932,7 @@ form label {
   margin-left: 3px;
 }
 
-.simply-countdown {
+.img_bg_3.jpg-countdown {
   /* The countdown */
   margin-bottom: 2em;
 }
@@ -940,8 +940,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   background: rgba(241, 78, 149, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -950,6 +950,7 @@ form label {
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
+  margin-bottom: -200px;
 }
 
 @keyframes pulse {
