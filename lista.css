@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+
+.ic {
+    margin-left: 50%;
+    margin-top: -65%;
+}
+
+.top {
+    margin-top: 300px;
+    color: rgb(253, 4, 149);
+    margin-top: 55%;
+}
+
+.top h1 {
+    font-family: 'Tangerine', 'cursive';
+    margin-top: -230px;
+    margin-left: 140px;
+    font-size: 90px;
+}
+
+.top h2 {
+    font-family: 'Amatic SC', 'cursive';
+    margin-top: -150px;
+    margin-left: 130px;
+    font-size: 40px;
+}
+
+.text h1 {
+    font-family: 'Alice', serif;
+    font-size: 150%;
+    margin-left: 7%;
+    margin-top: -85px;
+}
+
+.nome h1 {
+    margin-top: -50px;
+    margin-left: 155px;
+    font-size: 20px;
+}
+
+.nome input {
+    border-color: rgb(255, 0, 212);
+    border-radius: 20px;
+    padding-right: 90px;
+    margin-left: 55px;
+    margin-top: 1px;
+    align-items: center;
+}
+
+.frase h2 {
+    font-family: 'Tangerine', 'cursive';
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.container h1 {
+    font-family: 'Alex Brush', 'cursive';
+    color: rgb(255, 0, 212);
+    font-size: 200%;
+    text-transform: none;
+}
+span{
+    color: brown;
+}
+
+.container {
+    text-transform: uppercase;
+}
+
+.but {
+    color: blueviolet;
+    border-radius: 40px;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
