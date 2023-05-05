@@ -75,9 +75,11 @@ span{
 }
 
 .but {
-    color: blueviolet;
+    color: rgb(255, 0, 212);
+    background-color: white;
+    border-color:rgb(255, 0, 212) ;
     border-radius: 40px;
-    width: 120px;
+    width: 120%;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 75px;
 }

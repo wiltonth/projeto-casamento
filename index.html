@@ -227,7 +227,7 @@
 					
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<a href="lista-presente.html"><button class="wil" style="color:rgb(255, 0, 85); background-color:rgba(231, 68, 169, 0.425); border-radius:200px;" type="button" class="btn btn-block">Acesse a Lista de Presentes</button></a>
+					<a href="lista-presente.html"><button style="color:rgb(255, 0, 85); background-color:white; border-color:rgb(255, 0, 85);" type="button" class="btn btn-block"> <i class="fa-regular fa-hand-pointer fa-beat"></i>  Acesse a Lista de Presentes <i class="fa-regular fa-hand-pointer fa-beat"></i> </button></a>
 				</div>
 		</div>
 	</div>
@@ -568,8 +568,26 @@
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
-								<label for="checkbox" class="sr-ony">Email</label>
-								<input type="checkbox" class="form-contrl" name="email" id="email" placeholder="Seu email" required>
+								<p style="color:white;">1- Você confirma sua presença?</p>
+								<label for="checkbox" style="color:white" class="sr-ony">Claro que sim!</label>
+								<input type="checkbox" class="form-contrl" name="eu vou" id="email" ><br>
+								<label for="checkbox" style="color:white" class="sr-ony">Não vou poder estar presente</label>
+								<input type="checkbox" class="form-contrl" name="Não vou" id="email" ><br>
+								<p style="color:white;">2- Quantos adultos são?</p> 
+								<label for="checkbox" style="color:white" class="sr-ony">1</label>
+								<input type="checkbox" class="form-contrl" name="1 adulto" id="email"><label for="checkbox" style="color:white" class="sr-ony">2</label>
+								<input type="checkbox" class="form-contrl" name="2 adultos" id="email"><label for="checkbox" style="color:white" class="sr-ony">3</label>
+								<input type="checkbox" class="form-contrl" name="3 adultos" id="email"><label for="checkbox" style="color:white;" class="sr-ony">4</label>
+								<input type="checkbox" class="form-contrl" name="4 adultos" id="email">
+								<p style="color:white;">3- Quantas crianças são?(até 12 anos)</p>
+								<label for="checkbox" style="color:white" class="sr-ony">1</label>
+								<input type="checkbox" class="form-contrl" name="1 criança" id="email"><label for="checkbox" style="color:white" class="sr-ony">2</label>
+								<input type="checkbox" class="form-contrl" name="2 crianças" id="email"><label for="checkbox" style="color:white" class="sr-ony">3</label>
+								<input type="checkbox" class="form-contrl" name="3 crianças" id="email"><label for="checkbox" style="color:white;" class="sr-ony">4</label>
+								<input type="checkbox" class="form-contrl" name="4 crianças" id="email">
+								<p style="color:white;">4- confirme para nós o nome e sobrenome dos convidados</p>
+								<input type="text" class="form-control" name="nome dos convidados" placeholder="Digite aqui">
+
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -639,7 +657,7 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date(new Date().getTime() + 200 * 120 * 116 * 3000);
+    var d = new Date(new Date().getTime() + 200 * 120 * 111 * 3000);
 
     // default example
     simplyCountdown('.simply-countdown-one', {
