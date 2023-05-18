@@ -52,6 +52,12 @@
     align-items: center;
 }
 
+.nome h2{
+    font-size: 20px;
+    margin-top: -45px;
+    margin-left: 148px;
+}
+
 .frase h2 {
     font-family: 'Tangerine', 'cursive';
     font-size: 30px;
